@@ -28,5 +28,9 @@ let package = Package(
         .testTarget(
             name: "Antlr4Tests",
             dependencies: ["Antlr4"]),
-    ]
+    ],
+    swiftLanguageVersions:
+        [
+        .v5
+        ]
 )
